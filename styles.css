@@ -11,16 +11,17 @@
 }
 
 #video {
-  width: 80%;
+  width:70%;
+  /* height: 80% !important; */
 }
 
 
 /* Modal Content/Box */
 .modal-content {
   padding: 15px;
-  width: 80% !important;
+  width: 70% !important;
   margin-top: 10%;
-  margin-left: 10%;
+  margin-left: 15%;
 }
 
 
@@ -80,6 +81,15 @@
   border-radius: 5px;
  }
 
+ @media screen and (max-width:600px){
+  #video{
+    width: 100%;
+  }
+  .modal-content{
+    width: 100% !important;
+    margin-left: 0;
+  }
+ }
  #op1{
   margin-right:2% ;
  }
